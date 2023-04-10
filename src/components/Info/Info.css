@@ -1,0 +1,22 @@
+.section {
+	display: grid;
+	margin-top: 50px;
+	padding-inline: 80px;
+	gap: 40px;
+	grid-template-columns: 2fr 1fr;
+	justify-content: center;
+}
+
+.info__text {
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+}
+
+.info__title {
+	font-size: 36px;
+}
+
+.price__title {
+	font-size: 36px;
+}

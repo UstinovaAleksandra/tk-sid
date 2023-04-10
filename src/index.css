@@ -1,0 +1,13 @@
+@import 'normalize-css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+	--color-accent: #000;
+	--color-main: #fff;
+}
+
+body {
+	font-family: 'Roboto', 'sans-serif';
+	margin-bottom: 300px;
+	scroll-behavior: smooth;
+}

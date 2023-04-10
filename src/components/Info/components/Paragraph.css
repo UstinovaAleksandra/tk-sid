@@ -1,0 +1,7 @@
+.paragraph {
+	font-size: 16px;
+}
+
+.paragraph__text {
+	word-wrap: break-word;
+}
