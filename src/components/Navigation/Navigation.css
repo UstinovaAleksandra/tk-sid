@@ -1,0 +1,21 @@
+.navigation {
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+	width: 100%;
+	background-color: var(--color-accent);
+}
+
+.navigation__links {
+	display: flex;
+	gap: 30px;
+	list-style: none;
+}
+
+.links__item a {
+	text-decoration: none;
+	cursor: pointer;
+	color: var(--color-main);
+}

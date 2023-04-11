@@ -1,10 +1,11 @@
 import { Paragraph } from './components/Paragraph'
 import { paragraphs } from '../../constants'
 import './Info.css'
+import { RequestForm } from '../form/Form'
 
 export const Info = () => {
 	return (
-		<div className='section'>
+		<div className='section' id='info'>
 			<div className='section__info'>
 				<h2 className='info__title'>o компании</h2>
 				<div className='info__text'>
@@ -24,6 +25,7 @@ export const Info = () => {
 			</div>
 			<div className='section__price'>
 				<h2 className='price__title'>запрос цен</h2>
+				<RequestForm vertical />
 			</div>
 		</div>
 	)

@@ -1,0 +1,57 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+}
+
+.form--vertical {
+	width: 290px;
+	flex-direction: row;
+}
+
+.field {
+	padding: 6px;
+	border: 0.1px solid var(--color-accent);
+}
+
+.field:focus {
+	outline: none;
+}
+
+.form__line-fields {
+	display: flex;
+	align-items: flex-start;
+	gap: 26px;
+}
+
+.form__line-fields--vertical {
+	display: flex;
+	flex-direction: column;
+	gap: 26px;
+	margin-bottom: 26px;
+}
+
+.line-field__field {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.form__textarea {
+	width: 99.2%;
+}
+
+.form__checkbox {
+	margin-top: 10px;
+}
+
+.form__button {
+	margin-top: 20px;
+	width: 200px;
+	height: 30px;
+	border-radius: 3px;
+	border: none;
+	background-color: var(--color-accent);
+	color: var(--color-main);
+	align-self: center;
+}

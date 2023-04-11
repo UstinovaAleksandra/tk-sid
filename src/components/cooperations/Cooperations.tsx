@@ -1,19 +1,57 @@
+import coop from '../../assets/coop.png'
 import './Cooperations.css'
 
 export const Cooperations = () => {
 	return (
-		<div className='cooperations'>
+		<div className='cooperations' id='coop'>
 			<div className='cooperations__areas'>
-				<div className='areas__title'></div>
+				<div className='areas__title'>Отрасли сотрудничества</div>
+				<div className='areas__text'>
+					ТК "ЕВРОЛАЙН" осуществляет поставки импортного промышленного оборудования для производственных предприятий
+					России И стран СНГ. Ключевыми клиентами компании являются заводы и комбинаты таких отраслей как:
+					машиностроение, металлургия, металлообработка, газовая промышленность, судостроение и судоремонт, топливная
+					промышленность, пищевая промышленность, перерабатывающая промышленность, химическая промышленность, ГОК,
+					нефтехимическая промышленность, деревообрабатывающая промышленность, стекольная промышленность, химическая
+					промышленность, ЦБК. Имея более 10-ти летний опыт работы и широкий спектр поставляемого оборудования и
+					комплектующих, ТК "ЕВРОЛАЙН" готова решить задачу поиска, закупки и поставки оборудования практически для
+					любой производственной организации.
+				</div>
 				<div className='areas__img-container'>
-					<img src='' alt='coop' />
+					<img className='areas__img' src={`${coop}`} alt='coop' />
 				</div>
 			</div>
 			<div className='cooperations__scheme'>
-				<div className='scheme__title'></div>
+				<div className='scheme__title'>Схема сотрудничества</div>
 				<div className='scheme__list-items'>
 					<div className='list-items__item'>
-						<div className='item__number'></div> <div className='item__text'></div>
+						<div className='item__number'>1.</div>
+						<div className='item__text'>
+							Вы присылаете нам запрос на интересующие вас комплектующие. При этом надо указать бренд и серийный номер
+							детали. После чего наш специалист свяжется с вами для подтверждения запроса и возможного уточнения
+							параметров комплектующих.
+						</div>
+					</div>
+					<div className='list-items__item'>
+						<div className='item__number'>2.</div>
+						<div className='item__text'>
+							Наши специалисты обрабатывают ваш запрос. Мы можем предложить как оригиналы запрашиваемой продукции, так и
+							аналоги соответствующего качества. После чего мы отправляем вам коммерческое предложение с указанием
+							стоимости, сроков поставки и условий оплаты.
+						</div>
+					</div>
+					<div className='list-items__item'>
+						<div className='item__number'>3.</div>
+						<div className='item__text'>
+							Согласование стоимости, сроков поставки и условий оплаты. Подписание договора и спецификации. Оформление
+							заказа. Выполнение договорных обязательств.
+						</div>
+					</div>
+					<div className='list-items__item'>
+						<div className='item__number'>4.</div>
+						<div className='item__text'>
+							Отгрузка продукции в ваш адрес. Подписание закрывающих документов. Финальное исполнение договорных
+							обязательств.
+						</div>
 					</div>
 				</div>
 			</div>

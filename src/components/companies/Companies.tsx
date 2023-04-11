@@ -37,7 +37,7 @@ const companies = [
 
 export const Companies = () => {
 	return (
-		<div className='companies'>
+		<div className='companies' id='companies'>
 			<div className='company__relations'>
 				ТК "ЕВРОЛАЙН" имеет постоянные партнёрские отношения с ведущими европейскими производителями промышленных
 				комплектующих и является прямым импортером данной продукции. Такой подход обеспечивает гарантию оптимальных цен

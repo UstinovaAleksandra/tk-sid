@@ -7,7 +7,7 @@ import './Stock.css'
 
 export const Stock = () => {
 	return (
-		<div className='stock'>
+		<div className='stock' id='stock'>
 			<div className='stock__items-container'>
 				<div className='item'>
 					<div className='items-container__img'>
