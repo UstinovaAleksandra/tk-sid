@@ -16,7 +16,7 @@ export const Header = () => {
 				</div>
 				<div className='logo__underline'></div>
 				<p>Профессиональные услуги по закупке и доставке импортного оборудования и комплектующих.</p>
-				<p>+7 (812) 679-66-69 // info@tk-euroline.ru</p>
+				<p>+7 (812) 679-66-69 // info-tk-sid@yandex.ru</p>
 			</div>
 		</header>
 	)

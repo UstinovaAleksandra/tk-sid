@@ -67,14 +67,14 @@ export const Navigation = () => {
 				<li
 					className='links__item'
 					onClick={() => {
-						const products = document.getElementById('products')
+						const footer = document.getElementById('footer')
 
-						console.log(products)
-						if (!products) {
+						console.log(footer)
+						if (!footer) {
 							return
 						}
 
-						products.scrollIntoView({ behavior: 'smooth', block: 'start' })
+						footer.scrollIntoView({ behavior: 'smooth', block: 'start' })
 					}}
 				>
 					<a>Контакты</a>

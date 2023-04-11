@@ -1,6 +1,6 @@
 import { Field, Form, Formik } from 'formik'
-import './Form.css'
 import { FC } from 'react'
+import './Form.css'
 
 interface Props {
 	vertical?: boolean
