@@ -1,22 +1,43 @@
 .section {
 	display: grid;
 	margin-top: 50px;
-	padding-inline: 180px;
+	padding-inline: 20px;
 	gap: 40px;
-	grid-template-columns: 2fr 1fr;
+	grid-template: column;
 	justify-content: center;
+}
+
+.info__title {
+	font-size: 24px;
 }
 
 .info__text {
 	display: flex;
 	flex-direction: column;
-	width: 700px;
 }
 
-.info__title {
-	font-size: 36px;
-}
+@media (min-width: 1024px) {
+	.section {
+		display: grid;
+		margin-top: 50px;
+		padding-inline: 180px;
+		gap: 40px;
+		grid-template-columns: 2fr 1fr;
+		justify-content: center;
+	}
 
-.price__title {
-	font-size: 36px;
+	.info__text {
+		display: flex;
+		font-size: 16px;
+		flex-direction: column;
+		width: 700px;
+	}
+
+	.info__title {
+		font-size: 36px;
+	}
+
+	.price__title {
+		font-size: 36px;
+	}
 }

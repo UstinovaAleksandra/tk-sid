@@ -9,7 +9,6 @@ export const Navigation = () => {
 					onClick={() => {
 						const header = document.getElementById('header')
 
-						console.log(header)
 						if (!header) {
 							return
 						}
@@ -24,7 +23,6 @@ export const Navigation = () => {
 					onClick={() => {
 						const info = document.getElementById('info')
 
-						console.log(info)
 						if (!info) {
 							return
 						}
@@ -54,7 +52,6 @@ export const Navigation = () => {
 					onClick={() => {
 						const coop = document.getElementById('coop')
 
-						console.log(coop)
 						if (!coop) {
 							return
 						}
@@ -69,7 +66,6 @@ export const Navigation = () => {
 					onClick={() => {
 						const footer = document.getElementById('footer')
 
-						console.log(footer)
 						if (!footer) {
 							return
 						}

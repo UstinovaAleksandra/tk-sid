@@ -1,7 +1,9 @@
 .footer {
 	margin-top: 50px;
+	padding-top: 20px;
 	display: flex;
 	align-items: center;
+	flex-direction: column;
 	justify-content: center;
 	gap: 30px;
 	background-color: var(--color-accent);
@@ -21,11 +23,12 @@
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
-	align-items: flex-start;
+	text-align: center;
+	align-items: center;
 }
 
 .info__contacts {
-	font-size: 24px;
+	font-size: 14px;
 }
 
 .info__adres {
@@ -39,4 +42,19 @@
 	color: var(--color-accent);
 	background-color: var(--color-main);
 	text-align: center;
+}
+
+@media (min-width: 1024px) {
+	.footer {
+		flex-direction: row;
+	}
+
+	.info__contacts {
+		font-size: 24px;
+	}
+
+	.panel__info {
+		text-align: start;
+		align-items: flex-start;
+	}
 }
