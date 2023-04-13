@@ -9,7 +9,7 @@ export const Header = () => {
 			<img className='header__img' src={`${img}`} alt='main' />
 			<div className='header__logo'>
 				<div className='logo__img'>
-					<img src={`${window.innerWidth <= 320 ? mobilelogo : logo}`} alt='logo' />
+					<img src={`${window.innerWidth <= 767 ? mobilelogo : logo}`} alt='logo' />
 				</div>
 				<div className='logo__title'>
 					<div>комплексные поставки</div>
